@@ -1,1 +1,9 @@
 @import "tailwindcss";
+#click:checked~.hup{
+left: 0;
+transition: 0.3s;
+}
+.hup{
+    left: -100%;
+    transition: 0.3s;
+}
